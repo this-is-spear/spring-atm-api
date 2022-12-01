@@ -1,0 +1,27 @@
+= ATM API
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+
+== ATM
+
+=== 계좌 조회
+
+operation::accounts/find[snippets='http-request,http-response']
+
+=== 잔액 조회
+
+operation::accounts/see[snippets='http-request,http-response']
+
+=== 현금 입금
+
+operation::accounts/deposit[snippets='http-request,http-response']
+
+=== 현금 출금
+
+operation::accounts/withdraw[snippets='http-request,http-response']
+
