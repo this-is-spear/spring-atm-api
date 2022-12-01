@@ -15,7 +15,7 @@ operation::accounts/find[snippets='http-request,http-response']
 
 === 잔액 조회
 
-operation::accounts/see[snippets='http-request,http-response']
+operation::accounts/seeBalance[snippets='http-request,http-response']
 
 === 현금 입금
 
