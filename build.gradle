@@ -79,7 +79,7 @@ jacocoTestCoverageVerification {
 				minimum = 0.90
 			}
 
-			excludes = ["*.SpringAtmApiApplication", "*.*Request*", "*.*Response*", "*.*Configurer"]
+			excludes = ["*.SpringAtmApiApplication", "*.*Request*", "*.*Response*", "*.*Configurer", "*.*Fake*"]
 		}
 	}
 }
